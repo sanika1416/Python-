@@ -1,27 +1,33 @@
-tasks = ['buy milk', 'call mom', 'study', 'buy milk']
+list1=[1,2,"sujal"]
+print(list1)
 
-tasks.append('reading book')   #adding at the end of the list
-print(tasks)
+for i in list1 : 
+    print(i)
+    
+#postive    
+list2=["A","B","C","D"] 
+   
+print(list2[1])
+print(list2[2])
+print(list2[0:3])
 
-tasks.remove('buy milk')  #remove first element
-print(tasks)
+print(list2.append("E"))
+print(list2[4])
+print(list2.insert(2,"Z"))
+print(list2[0:5])
+print(list2.remove("Z"))
+print(list2[0:4])
+print(list2.sort())
+print(list2[0:4])
+print(list2.reverse())
+print(list2[0:4])
 
-print(tasks.count('buy milk'))  #count the occurences
-
-tasks.sort()  #sorts the list in alphabetical order
-print(tasks)
-
-tasks.reverse() #reverse the list
-print(tasks)
-
-print(len(tasks)) #number of elements present in the list
-
-print('walking' in tasks) #membership test
-
-print(tasks[1: 4])   #slicing
-
-tasks.clear()   #removes all elements
-print(tasks)
-
-
+print(list2.pop(0))
+print(list2)
+print(list2.pop())
+print(list2)
+print(list2.count("B"))
+print(list2.copy())
+print(list2)
+print(list2*3)
 
